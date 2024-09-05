@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button[href="/supra"] {
+    background-color: #9d0f0b;
+}
+.button:hover[href="/supra"] {
+    background-color: #700c09;
+}
+
+.button[href="/gtr"] {
+    background-color: #4349c8;
+}
+
+.button:hover[href="/gtr"] {
+    background-color: #292d79;
+}
+.button[href="/mustang"] {
+    background-color: #dcac2e;
+}
+
+.button:hover[href="/mustang"] {
+    background-color: #8f6f1d;
+}
+
+.button[href="/corvette"] {
+    background-color: #39d147;
+}
+
+.button:hover[href="/corvette"] {
+    background-color: #299434;
+}
+
